@@ -1,11 +1,35 @@
-<html>
-  <body>
-    <h1>Módulos de Desarrollo de Aplicaciones Web</h1>
-    <ul>
-      <li>Despliegue de Aplicaciones Web</li>
-      <li>Nube Pública</li>
-      <li>Diseño de Interfaces Web</li>
-      <li>Lenguaje de Marcas</li>
-    </ul>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Actividad 1.4 - GitHub Pages</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mi página desplegada en GitHub Pages</h1>
+    <nav>
+      <a href="./index.html">Inicio</a> |
+      <a href="./about.html">Acerca de</a> |
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Prueba de imagen</h2>
+      <p>Esta imagen está en la carpeta <code>img/</code> y se referencia con una ruta relativa:</p>
+      <img src="./img/mi-imagen.png" alt="Imagen de ejemplo" width="400" />
+    </section>
+
+    <section>
+      <h2>Prueba de JavaScript</h2>
+      <p>Pulsa el botón para ver que el JS funciona:</p>
+      <button id="miBoton">Haz clic</button>
+      <p id="mensaje"></p>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
 </html>
